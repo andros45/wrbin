@@ -1,3 +1,6 @@
+all :	wrbin.o
+	gcc -o wrbin wrbin.o
+
 wrbin :	wrbin.o
 	gcc -o wrbin wrbin.o
 
